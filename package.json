@@ -1,0 +1,15 @@
+{
+  "name": "my-bff-boilerplate",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "webpack-dev-server --progress --colors",
+    "build": "webpack --progress --colors"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.6.0",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
